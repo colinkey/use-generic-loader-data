@@ -1,0 +1,35 @@
+{
+  "name": "@colinkey/use-generic-loader-data",
+  "version": "0.0.2",
+  "description": "A stupidly tiny wrapper around useLoaderData from react-router-dom",
+  "main": "build/index.js",
+  "keywords": [],
+  "private": false,
+  "files": [
+    "build/",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Colin Key",
+  "license": "WTFPL",
+  "devDependencies": {
+    "react-router": "^6.25.1",
+    "react-router-dom": "^6.25.1",
+    "typescript": "^5.5.3"
+  },
+  "peerDependencies": {
+    "react-router": "^6.0.0",
+    "react-router-dom": "^6.0.0",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colinkey/use-generic-loader-data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/colinkey/use-generic-loader-data/issues"
+  },
+  "homepage": "https://github.com/colinkey/use-generic-loader-data#readme"
+}
